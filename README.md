@@ -4,7 +4,7 @@ Sample Docker container to send broadcast messages via UDP in PHP7. (Port=5963 b
 
 ## File Description
 
-- Broadcaster: `sender.php` (Entrypoint script. Sends the broadcast message)
+- `broadcaster.php` (Entrypoint script. Sends the broadcast message)
 
 ## What It Does
 

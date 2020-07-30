@@ -12,6 +12,6 @@ ENV NAME_HOST_SELF=$name_host_self\
     PORT_UDP_BROADCAST=$port_udp_broadcast \
     TIME_INTERVAL_SEND=$time_interval_send
 
-COPY ./sender.php /app/sender.php
+COPY ./broadcaster.php /app/broadcaster.php
 
-ENTRYPOINT [ "/usr/local/bin/php", "/app/sender.php" ]
+ENTRYPOINT [ "/usr/local/bin/php", "/app/broadcaster.php" ]
